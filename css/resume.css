@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+img {
+    padding: 1em;
+}
+
+@media all and (min-width: 300px) {
+    nav {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    img {
+        position: relative;
+        width: 95vw;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    nav {
+        flex-wrap: nowrap;
+    }
+    img {
+        position: relative;
+        width: 100vw;
+    }
+}

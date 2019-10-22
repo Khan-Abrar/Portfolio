@@ -1,0 +1,117 @@
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+.container {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    margin: 5% 10% 0%;
+}
+
+.about {
+    text-align: justify;
+    padding: 4%;
+    margin: 5% 5% 0;
+}
+
+.about h2 {
+    text-align: center;
+    padding: 1em 0;
+    color: #00ccff;
+}
+
+#p {
+    text-align: justify;
+}
+
+#skills {
+    padding: 1em;
+    color: #00ccff;
+}
+
+#skill-list {
+    padding: 1em 0.5em;
+    margin: 0;
+    color: #ff0095;
+}
+
+#skill-head {
+    padding: 1em 0;
+    text-align: justify;
+    color: #00ccff;
+}
+
+.project {
+    text-align: left;
+    margin: 0;
+    padding: 2em 4em 0;
+}
+
+h2 {
+    text-align: center;
+    color: #00ccff;
+    padding: 0.7em;
+}
+
+#ul {
+    width: 25%;
+    margin: 0;
+    padding: 1em 0;
+    list-style: none;
+}
+
+.li {
+    color: #ff0095;
+    padding: 0.5em;
+}
+
+.li:hover {
+    color: #00ccff;
+}
+
+.proj-head {
+    padding: 0.5em;
+    color: #ff00ff;
+}
+
+.proj-head a {
+    padding: 0;
+}
+
+.a {
+    text-decoration: none;
+}
+
+@media all and (max-width: 700px) {
+    nav {
+        font-size: 0.5rem;
+    }
+    .container {
+        margin: 0% auto;
+        margin-top: 25%;
+        padding: 0%;
+        flex-direction: column;
+    }
+    #p {
+        text-align: left;
+    }
+    .project {
+        margin: 5%;
+        padding: 0%;
+        flex-direction: column;
+    }
+    .about h2 {
+        width: 100%;
+        text-align: justify;
+        margin: 0% auto;
+    }
+    .proj-head {
+        padding: 0;
+    }
+    #ul {
+        width: 50%;
+    }
+}
