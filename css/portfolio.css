@@ -4,12 +4,18 @@ nav {
     top: 0%;
 }
 
+
+/* container*/
+
 .container {
     clear: both;
     display: flex;
     flex-direction: column;
     margin: 5% 10% 0%;
 }
+
+
+/* intro div */
 
 .about {
     text-align: justify;
@@ -43,6 +49,9 @@ nav {
     text-align: justify;
     color: #00ccff;
 }
+
+
+/* projects div */
 
 .project {
     text-align: left;

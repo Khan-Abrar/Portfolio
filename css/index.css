@@ -18,6 +18,7 @@
             width: 100%;
             background-color: black;
         }
+        /* Navigation bar styling start */
         
         nav {
             padding: 0;
@@ -45,6 +46,7 @@
         nav a:hover {
             color: #ff0095;
         }
+        /* Content column styling start */
         
         .col {
             display: flex;
@@ -89,6 +91,7 @@
             cursor: pointer;
             border: 1px solid #00ccff;
         }
+        /* image column styling start */
         
         .col-3 {
             height: auto;
@@ -102,6 +105,7 @@
             flex: 1;
             clear: both;
         }
+        /* media queries */
         
         @media all and (max-width: 700px) {
             nav {
